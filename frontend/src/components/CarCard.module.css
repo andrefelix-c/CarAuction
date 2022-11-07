@@ -1,0 +1,49 @@
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://motorshow.com.br/wp-content/uploads/sites/2/2019/11/novo-onix-premier-20.jpg");
+    background-size: cover;
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px 20px;
+    color: white;
+    font-family: 'Akshar', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.marca {
+    font-size: 24px;
+}
+
+.b_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.km {
+    font-size: 15px;
+}
+
+.valor_atual {
+    font-size: 20px;
+}

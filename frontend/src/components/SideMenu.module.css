@@ -1,0 +1,27 @@
+.menu_container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Akshar', sans-serif;
+    width: 80%;
+}
+
+.item_menu {
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.item_menu button{
+    background: none;
+	color: inherit;
+	border: none;
+    border-radius: 5px;
+	padding: 5px 15px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.item_menu button:hover {
+    background-color: black;
+    color: white;
+}
